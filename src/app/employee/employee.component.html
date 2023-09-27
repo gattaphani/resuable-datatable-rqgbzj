@@ -1,0 +1,17 @@
+<div class="container">
+  <app-data-table
+    [tableData]="tableData1"
+    [columnHeader]="columnHeader1"
+  ></app-data-table>
+  <app-data-table
+    [tableData]="tableData2"
+    [columnHeader]="columnHeader2"
+  ></app-data-table>
+  <app-data-table [grid]="data">
+<h2 class="one">GridOne</h2>
+<h2  class="two">GridTwo</h2>
+
+
+  </app-data-table>
+  {{ data }}
+</div>
